@@ -3,7 +3,7 @@
 ## 신라대학교 2학년 2학기 java 실습 수업
 1.[Byte stream](13장-0922패키지-FileInputStreamTest1-class-수정사항)<br>
 2.[getChars](13장-0926패키지-FileIOTest1-getchars)
-
+3.[test](#test)
 
 
 ### [13장 0922패키지 FileInputStreamTest1 class 수정사항](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap13/src/a0922/FileInputStreamTest1.java)
@@ -15,8 +15,7 @@
 source.getChars(0,source.length(),intxt,0);  //source 배열의 source길이만큼 intxt배열에 문자열을 복사한다.
 
                                       
-
-
+# test
 
 
 

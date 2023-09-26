@@ -9,6 +9,14 @@
 ### [13장 0922패키지 FileInputStreamTest1 class 수정사항](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap13/src/a0922/FileInputStreamTest1.java)
 - 24번째줄 `fos.write((char)i);` 을 `fos.write(i);`로 수정하면 
  b.txt (바이트단위 파일)이 정상 출력된다.
+d
+d
+d
+d
+d
+
+d
+
 
 ### [13장 0926패키지 FileIOTest1 getchars](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap13/src/a0926/FileIOTest1.java)
 - getchars()는 String의 일부분을 배열로 복사해주는 메소드이다.

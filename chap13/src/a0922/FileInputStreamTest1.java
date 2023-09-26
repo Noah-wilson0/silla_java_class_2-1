@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class FileInputStreamTest1 {
     public static void main(String[] args) throws IOException {
         Scanner scan=new Scanner(System.in);
-        System.out.println("읽을 파일명을 입력하세요.");
+        System.out.println("읽을 파일명을 입력하세요."); //b.txt
         String sfile= scan.next();
 
         //읽어들일 파일 객체 생성.
@@ -22,6 +22,7 @@ public class FileInputStreamTest1 {
         //한 바이트씩 읽기
         int i;
         while((i=fis.read())!=-1) { //데이터를 모두 읽으면 -1을 반환해서 루프 종료
+            System.out.print((i); //(char)삭제
             System.out.print((char)i);
         }
         fis.close(); //입력 스트림 닫기

@@ -1,8 +1,8 @@
 # silla_java_class_2-1
 
 ## 신라대학교 2학년 2학기 java 실습 수업
-1.[Byte stream](###[13장-0922패키지-FileInputStreamTest1-class-수정사항])<br>
-2.[getChars](###[13장-0926패키지-FileIOTest1-getchars])
+1.[Byte stream](#[13장-0922패키지-FileInputStreamTest1-class-수정사항])<br>
+2.[getChars](#[13장-0926패키지-FileIOTest1-getchars])
 3.[test](#test)
 
 

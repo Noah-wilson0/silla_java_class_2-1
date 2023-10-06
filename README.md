@@ -11,9 +11,9 @@
  b.txt (바이트단위 파일)이 정상 출력된다.
 ### [13장 0926패키지 FileIOTest1 getchars](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap13/src/a0926/FileIOTest1.java)
 - getchars()는 String의 일부분을 배열로 복사해주는 메소드이다.
-source.getChars(0,source.length(),intxt,0);  //source 배열의 source길이만큼 intxt배열에 문자열을 복사한다.
+source.getChars(0,source.length(),intxt,0);  //source 배열의 source길이만큼 intxt배열에 문자열을 복사한다. 
 
-###[14장 1006 java awt, swing](https://github.com/noah-wilson0/silla_java_class_2-1/tree/main/chap14/src)
+### [14장 1006 java awt, swing](https://github.com/noah-wilson0/silla_java_class_2-1/tree/main/chap14/src)
 - 생성한 JFrame을 화면에 출력 시키려면  `setVisible(true);`을 해야 된다. 만약 이 문법을 사용하거나 "flase"로 할 경우 화면에 출력되지 않는다.
 - x창을 닫으면 프로그램 종료된다.
   `setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);`

@@ -17,7 +17,10 @@ source.getChars(0,source.length(),intxt,0);  //source 배열의 source길이만�
 - 생성한 JFrame을 화면에 출력 시키려면  `setVisible(true);`을 해야 된다. 만약 이 문법을 사용하거나 "flase"로 할 경우 화면에 출력되지 않는다.
 - x창을 닫으면 프로그램 종료된다.
   `setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);`
-
+- FlowLayout은 LEFT, CENTER, RIGHT 방향으로 컴포넌트를 수평 방향으로 연속  배치시키는 관리자이다.
+- BorderLayout은 컴포넌트를 프레임에 추가할때 방향을 지정하여 EAST, WEST, SOUTH, NORTH방향으로 지정하여 추가해준다.
+- GridLayout은 컴포넌트를 행과 열을 가진 배열형태로 배치해준다.
+- Jpanel은 Container 클래스의 하위 클래스로 그릇 역할을 한다.
 
 
 

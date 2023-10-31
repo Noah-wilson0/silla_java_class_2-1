@@ -4,7 +4,7 @@
 1.[Byte stream](#13장-0922패키지-FileInputStreamTest1-class-수정사항)<br>
 2.[getChars](#13장-0926패키지-FileIOTest1-getchars)<br>
 3.[Java Swing](#14장-1006-java-awt-swing)<br>
-
+4.[Java Swing-이벤트 처리]() <br>
 
 ### [13장 0922패키지 FileInputStreamTest1 class 수정사항](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap13/src/a0922/FileInputStreamTest1.java)
 - 24번째줄 `fos.write((char)i);` 을 `fos.write(i);`로 수정하면 
@@ -22,7 +22,8 @@ source.getChars(0,source.length(),intxt,0);  //source 배열의 source길이만�
 - GridLayout은 컴포넌트를 행과 열을 가진 배열형태로 배치해준다.
 - Jpanel은 Container 클래스의 하위 클래스로 그릇 역할을 한다.
 
-
+### [15장] 
+- 패키지에서 imageIcon을 쓸떄 "final_1031/image/"+fruit+".jpg"를 사용하는 것이 아니고` "image/"+fruit+".jpg" `로 사용해야 된다.
 
 
 

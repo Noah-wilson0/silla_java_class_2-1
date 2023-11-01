@@ -28,30 +28,57 @@ source.getChars(0,source.length(),intxt,0);  //source 배열의 source길이만�
 
 
 ### [중간고사 못푼 문제 해결](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC/%EB%AA%BB%ED%91%BC%20%EB%AC%B8%EC%A0%9C(2%EB%B2%88).java)
+
 ```
-           try {
-                String inputText = jta2.getText();
+  private class EventProcess implements ActionListener{
+        @Override
+        public void actionPerformed(ActionEvent e) {
+
+            //원
+            if(e.getActionCommand()=="원"){
+//                jtf.setText(+"*"+"*"+"3.14 = "+**3.14);
+            }
+
+            //삼각형
+            if(e.getActionCommand()=="삼각형"){
+//                jtf.setText(+"*"+"/"+"2 = "+**3.14);
+            }
+            //사각형
+                if(e.getActionCommand()=="사각형"){
+//                    jtf.setText(+"*"+"*"+" = "+**3.14);
+                }
+            //리셋
+            if(e.getActionCommand()=="리셋"){
+
+            }
+        }        
+```
+위 코드를 해결하지 못했었는데 아래와 같이 수정을 했다.
+
+```
+String inputText = jta2.getText();
                 int r=Integer.parseInt(inputText);
-                //원
+```
+- 제일 먼저 사용자에게 입력받은 jta의 값을 inputText라는 문자열에 저장 하고 int형으로 변환시킨다.
+  ```
                 if(e.getActionCommand()=="원"){
                     jtf.setText(r+"x"+r+"x"+"3.14 = "+r*r*3.14);
-                }
-                //삼각형
-                if(e.getActionCommand()=="삼각형"){
-                    jtf.setText(r+"x"+r+"/"+2+" = "+(double)r*r/2);
-                }
-                //사각형
-                if(e.getActionCommand()=="사각형"){
-                    jtf.setText(r+"x"+r+" = "+r*r);
-                }
-                //리셋
+                  //리셋
                 if(e.getActionCommand()=="리셋"){
                     jta2.setText("");
                     jtf.setText("");
                 }
-```
-위 코드를 해결하지 못했었는
- 클릭===> [해결 코드](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC/%ED%95%B4%EA%B2%B0(2%EB%B2%88).java)
+  catch (NumberFormatException ex){
+                //숫자가 아닌 문자를 입력했을떄
+                jta2.setText("");
+                jtf.setText("길이(숫자)를 입력하셔야 합니다.");
+            }
+  ```
+  - 그 다음 위 코드와 같이 사용자가 "원"을 클릭하면 결과 창(jtf)에 값을 뿌려주면 된다.
+  - 리셋은 jta2.setText="";로 하면 입력 값이 사라진다.
+  - 마지막으로 try{...}catch(){...}문을 통해 숫자가 아닌 다른 값을 입력했을떄 예외 처리로 넘기면 된다.
+       
+ 클릭===> [해결 코드](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC/%ED%95%B4%EA%B2%B0%ED%95%9C%20%EB%AC%B8%EC%A0%9C(2%EB%B2%88).java)
 
 
 

@@ -4,7 +4,8 @@
 1.[Byte stream](#13장-0922패키지-FileInputStreamTest1-class-수정사항)<br>
 2.[getChars](#13장-0926패키지-FileIOTest1-getchars)<br>
 3.[Java Swing](#14장-1006-java-awt-swing)<br>
-4.[Java Swing-이벤트 처리](#15장-1031-JTabbedPane) <br>
+4.[Java Swing-이벤트 처리](#15장-1031-JTabbedPane) <br> 
+5.[](#) <br>
 
 ### [13장 0922패키지 FileInputStreamTest1 class 수정사항](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap13/src/a0922/FileInputStreamTest1.java)
 - 24번째줄 `fos.write((char)i);` 을 `fos.write(i);`로 수정하면 
@@ -27,9 +28,30 @@ source.getChars(0,source.length(),intxt,0);  //source 배열의 source길이만�
 
 
 ### [중간고사 못푼 문제 해결](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC/%EB%AA%BB%ED%91%BC%20%EB%AC%B8%EC%A0%9C(2%EB%B2%88).java)
-
-
-
+```
+           try {
+                String inputText = jta2.getText();
+                int r=Integer.parseInt(inputText);
+                //원
+                if(e.getActionCommand()=="원"){
+                    jtf.setText(r+"x"+r+"x"+"3.14 = "+r*r*3.14);
+                }
+                //삼각형
+                if(e.getActionCommand()=="삼각형"){
+                    jtf.setText(r+"x"+r+"/"+2+" = "+(double)r*r/2);
+                }
+                //사각형
+                if(e.getActionCommand()=="사각형"){
+                    jtf.setText(r+"x"+r+" = "+r*r);
+                }
+                //리셋
+                if(e.getActionCommand()=="리셋"){
+                    jta2.setText("");
+                    jtf.setText("");
+                }
+```
+위 코드를 해결하지 못했었는
+ 클릭===> [해결 코드](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC/%ED%95%B4%EA%B2%B0(2%EB%B2%88).java)
 
 
 

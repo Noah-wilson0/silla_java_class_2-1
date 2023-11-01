@@ -26,7 +26,7 @@ source.getChars(0,source.length(),intxt,0);  //source 배열의 source길이만�
 - 패키지에서 imageIcon을 쓸떄 "final_1031/image/"+fruit+".jpg"를 사용하는 것이 아니고` "image/"+fruit+".jpg" `로 사용해야 된다.
 
 
-
+### [중간고사 못푼 문제 해결]()
 
 
 

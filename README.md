@@ -29,7 +29,7 @@ source.getChars(0,source.length(),intxt,0);  //source 배열의 source길이만�
 - 패키지에서 imageIcon을 쓸떄 "final_1031/image/"+fruit+".jpg"를 사용하는 것이 아니고` "image/"+fruit+".jpg" `로 사용해야 된다.
 
 
-### [중간고사 못푼 문제 해결](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC/%EB%AA%BB%ED%91%BC%20%EB%AC%B8%EC%A0%9C(2%EB%B2%88).java)
+### [중간고사 못푼 문제 해결](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC/%EB%AA%BB%ED%91%BC%20%EB%AC%B8%EC%A0%9C(2%EB%B2%88).java) <br>
 
 ```
   private class EventProcess implements ActionListener{

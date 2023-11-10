@@ -7,7 +7,7 @@
 4.[Java Swing-이벤트 처리](#15장-1031-JTabbedPane) <br> 
 5.[중간고사 못푼 문제 해결](#중간고사-못푼-문제-해결) <br>
 ### 기말고사
-1.[#16장-LocalDate](#16장-LocalDate) <br>
+1.[#16장 LocalDate](#16장-LocalDate) <br>
 
 ### [13장 0922패키지 FileInputStreamTest1 class 수정사항](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap13/src/a0922/FileInputStreamTest1.java)
 - 24번째줄 `fos.write((char)i);` 을 `fos.write(i);`로 수정하면 

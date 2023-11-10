@@ -7,7 +7,7 @@
 4.[Java Swing-이벤트 처리](#15장-1031-JTabbedPane) <br> 
 5.[중간고사 못푼 문제 해결](#중간고사-못푼-문제-해결) <br>
 ### 기말고사
-1.[LocalDAate](#16장-LocalDate) <br>
+1.[#16장-LocalDate](#16장-LocalDate) <br>
 
 ### [13장 0922패키지 FileInputStreamTest1 class 수정사항](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap13/src/a0922/FileInputStreamTest1.java)
 - 24번째줄 `fos.write((char)i);` 을 `fos.write(i);`로 수정하면 
@@ -104,14 +104,14 @@ jta1.append("생일부터 오늘까지의 일: " + myBirth.until(current));
  String 클래스는 이미 Object 클래스를 상속하고 있으며, Object 클래스에는 toString 메서드가 정의되어 있다. 따라서 String 클래스에서 직접 toString 메서드를 호출할 필요가 없다.<br>
 하지만 아래와 같이System.out.println(toString(t));에서 toString 메서드 호출은 불 필요하게 되고, 오류가 나게 된다. <br>
 
-'''java
+```java
 public class test {
     public static void main(String[] args) {
         String t="hi";
         System.out.println(toString(t));
     }
 }
-'''
+```
 
 
 

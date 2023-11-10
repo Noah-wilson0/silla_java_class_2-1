@@ -83,7 +83,7 @@ String inputText = jta2.getText();
  클릭===> [해결 코드](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC/%ED%95%B4%EA%B2%B0%ED%95%9C%20%EB%AC%B8%EC%A0%9C(2%EB%B2%88).java)
 
 
-### [16장 localdate](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap16/src/TimeTest2.java) <br>
+### [16장 localdate](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap16/src/TimeTest2.java)
 - 교재 코드는 my_birth,current,hundred 변수를 toString 을 사용하여 JTextArea에 추가하였다.
 ``` java
 LocalDate my_birth= LocalDate.of(year, month, day);

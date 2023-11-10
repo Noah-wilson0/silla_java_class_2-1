@@ -101,8 +101,8 @@ jta1.append("당신의 생일: " + myBirth);
 jta1.append("오늘 날짜는: " + current);
 jta1.append("생일부터 오늘까지의 일: " + myBirth.until(current));
 ```
- String 클래스는 이미 Object 클래스를 상속하고 있으며, Object 클래스에는 toString 메서드가 정의되어 있다. 따라서 String 클래스에서 직접 toString 메서드를 호출할 필요가 없다.
-하지만 아래와 같이 System.out.println(<span style="text-decoration: underline; color: red;">toString</span>(t));에서 toString 메서드 호출은 불 필요하게 되고, 오류가 나게 된다.
+ String 클래스는 이미 Object 클래스를 상속하고 있으며, Object 클래스에는 toString 메서드가 정의되어 있다. 따라서 String 클래스에서 직접 toString 메서드를 호출할 필요가 없다.<br>
+하지만 아래와 같이System.out.println(toString(t));에서 toString 메서드 호출은 불 필요하게 되고, 오류가 나게 된다. <br>
 
 '''java
 public class test {

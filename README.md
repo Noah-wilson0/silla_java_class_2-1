@@ -124,9 +124,11 @@ LinkedList - 중간 삽입 시간:15 <br>
 <br>
 - 처음에 데이터를 순차적으로 삽입할때는 LinkedList의 데이터 삽입 시간이 더 많이 걸린다. 이유: 링크도 걸어줘야되기 때문이다.
 - 하지만 중간에 데이터를 삽입 할때는 LinkedList의 삽입 시간이 더 적다. 이유:ArrayList는 중간 삽입이 되는 경우, 뒤의 요소들 자리를 한칸 씩 이동해야된다.
+<br>
 
-
-
+### TreeSet과 LinkedList차이점
+TreeSet은 순서에 상관없이 항상 정렬되어 출력된다.
+LinkedList는 생성된 그대로 출력
 
 
 

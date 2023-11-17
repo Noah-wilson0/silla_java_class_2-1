@@ -130,7 +130,7 @@ LinkedList - 중간 삽입 시간:15 <br>
 - 하지만 중간에 데이터를 삽입 할때는 LinkedList의 삽입 시간이 더 적다. 이유:ArrayList는 중간 삽입이 되는 경우, 뒤의 요소들 자리를 한칸 씩 이동해야된다.
 <br>
 
-### TreeSet과 LinkedList차이점
+### [TreeSet과 LinkedList차이점](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap17/src/TreeSetTest1.java)
 - TreeSet은 순서에 상관없이 항상 정렬되어 출력된다. <br>
 - LinkedList는 생성된 그대로 출력되고 중복을 허용한다. <br>
 

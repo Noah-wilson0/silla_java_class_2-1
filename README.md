@@ -131,8 +131,8 @@ LinkedList - 중간 삽입 시간:15 <br>
 <br>
 
 ### TreeSet과 LinkedList차이점
-TreeSet은 순서에 상관없이 항상 정렬되어 출력된다.
-LinkedList는 생성된 그대로 출력
+- TreeSet은 순서에 상관없이 항상 정렬되어 출력된다. <br>
+- LinkedList는 생성된 그대로 출력되고 중복을 허용한다. <br>
 
 
 

@@ -8,6 +8,7 @@
 5.[중간고사 못푼 문제 해결](#중간고사-못푼-문제-해결) <br>
 ### 기말고사
 6.[16장 LocalDate](#16장-localdate) <br>
+7.[17장 linkedList](#linkedlist-데이터-삽입-시간) <br>
 
 ### [13장 0922패키지 FileInputStreamTest1 class 수정사항](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap13/src/a0922/FileInputStreamTest1.java)
 - 24번째줄 `fos.write((char)i);` 을 `fos.write(i);`로 수정하면 
@@ -113,7 +114,7 @@ public class test {
 }
 ```
 
-### [linkedlist 데이터 삽입 시간]()
+### [linkedlist 데이터 삽입 시간](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap17/src/LinkedListTest1.java)  <br>
 *삽입 시간은 항상 상이하지만 상대적 결과는 비슷함
 ArrayList - 순차적 삽입 시간:18
 LinkedList - 순차적 삽입 시간:1348

@@ -10,7 +10,7 @@
 6.[16장 LocalDate](#16장-localdate) <br>
 7.[17장 linkedList](#linkedlist-데이터-삽입-시간) <br>
 8.[17장 TreeSet과 LinkedList차이점](#TreeSet과-LinkedList차이점) <br>
-
+9.[17장 equals사용 헷갈림](#equals사용-주의사항) <br>
 
 
 
@@ -135,8 +135,19 @@ LinkedList - 중간 삽입 시간:15 <br>
 - LinkedList는 생성된 그대로 출력되고 중복을 허용한다. <br>
 
 
+### [equals사용 주의사항](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap17/src/HashMapTest01.java)
 
-
+```java
+//0입력시 종료.
+if (kor.equals("0")) {
+ System.out.println("사전 종료");
+ break;
+}
+```
+- `==`은 주소값을 비교하는것이고, equals()는 값을 비교하는것이다.
+- 헷갈린 이유: JavaScript의`===`처럼 equals()가 값과 데이터 타입도 비교하는줄 알았다.
+  equals()는 값만 비교하므로 데이터 타입을 같이 줘야하고,
+  kor은 String 타입이고 scan.next()를 하여 이미 String형으로 값을 받아오기 때문에 `kor.equals("0")`를 해야한다.
 
 
 

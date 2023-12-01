@@ -13,7 +13,7 @@
 7.[17장 linkedList](#linkedlist-데이터-삽입-시간) <br>
 8.[17장 TreeSet과 LinkedList차이점](#TreeSet과-LinkedList차이점) <br>
 9.[17장 equals사용 헷갈림](#equals사용-주의사항) <br>
-
+10.[18장 jdbc 실습](#18장jdbc실습하기) <br>
 
 
 ### [13장 0922패키지 FileInputStreamTest1 class 수정사항](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap13/src/a0922/FileInputStreamTest1.java)
@@ -152,7 +152,8 @@ if (kor.equals("0")) {
   kor은 String 타입이고 scan.next()를 하여 이미 String형으로 값을 받아오기 때문에 `kor.equals("0")`를 해야한다.
 
 
-
+### [18장\.jdbc실습하기](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap18/src/StudentDAO.java)
+![image](https://github.com/noah-wilson0/silla_java_class_2-1/assets/127368908/59f23352-b396-4f1d-a0c6-018bb34768ff)
 
 
 

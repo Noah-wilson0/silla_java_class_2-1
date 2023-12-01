@@ -13,7 +13,7 @@ public class StudentDAO {
     Connection conn;
 
     String id = "root";
-    String pw = "495108";  //1234
+    String pw = "";  //비밀번호 기입하기
 
     PreparedStatement pstmt;
     ResultSet rs;

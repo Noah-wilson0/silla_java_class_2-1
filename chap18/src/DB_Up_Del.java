@@ -6,8 +6,7 @@ public class DB_Up_Del {
         String url = "jdbc:mysql://localhost:3306/dbstudent?serverTimezone=UTC";
         // 데이터베이스 URL           localhost 또는 127.0.0.1 로 설정.
         String id = "root";   // DB에 로그인할 ID
-//        String pw = "495108";   // MYSQL 설정 시 입력한 PASSWORD
-        String pw = "1234";
+        String pw = ""; // MYSQL 설정 시 입력한 PASSWORD
         //SQL문 실행을 위해 사용하는 클래스 Statement
         Statement stmt = null;
 

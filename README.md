@@ -153,6 +153,8 @@ if (kor.equals("0")) {
 
 
 ### [18장\.jdbc실습하기](https://github.com/noah-wilson0/silla_java_class_2-1/blob/main/chap18/src/StudentDAO.java)
+DB이름 : studentDB <br>
+table구조:
 ![image](https://github.com/noah-wilson0/silla_java_class_2-1/assets/127368908/59f23352-b396-4f1d-a0c6-018bb34768ff)
 
 

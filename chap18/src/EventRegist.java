@@ -12,8 +12,7 @@ public class EventRegist {
     Connection conn;
 
     String id = "root";
-    String pw = "495108";
-//    String pw = "1234";
+    String pw = "";  // MYSQL 설정 시 입력한 PASSWORD
 
     PreparedStatement pstmt;
     ResultSet rs;

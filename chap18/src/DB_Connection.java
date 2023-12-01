@@ -15,8 +15,7 @@ public class DB_Connection {
         // 만약 한글 깨짐 현상이 있다면 useUnicode=true&characterEncoding=UTF8 추가 설정.
 
         String id = "root";   // DB에 로그인할 ID
-//        String pw = "495108";   // MYSQL 설정 시 입력한 PASSWORD
-        String pw = "1234";
+        String pw = "";// MYSQL 설정 시 입력한 PASSWORD
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");  // JDBC 드라이버 로드.
 
